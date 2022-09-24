@@ -1,0 +1,30 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "This is Nodejs course",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfumes/nodejs-course-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitfumes/nodejs-course-2022/issues"
+  },
+  "homepage": "https://github.com/bitfumes/nodejs-course-2022#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2"
+  }
+}
